@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^git show --stat --oneline HEAD; git show --format=fuller --no-ext-diff -- \"HEAD:Slidey – Block Slides \\(1\\)\\.html\" \\| Select-Object -First 18; git ls-tree --name-only HEAD$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
