@@ -7,9 +7,9 @@
 <style>
 :root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
 --bg:#17191c;--panel:#202328;--ink:#f6f7eb;--mute:rgba(246,247,235,.65);--line:rgba(246,247,235,.16);--acc:#e94f37;--hov:rgba(246,247,235,.09);--pen:#e94f37;
---s-bg:#24282d;--s-ink:#f6f7eb;--s-acc:#e94f37;--s-mute:rgba(246,247,235,.55);--s-line:rgba(246,247,235,.24);--s-thbg:#e94f37;--s-think:#f6f7eb}
-:root[data-look="ember"]{--s-bg:#e94f37;--s-ink:#f6f7eb;--s-acc:#202328;--s-mute:rgba(246,247,235,.7);--s-line:rgba(246,247,235,.5);--s-thbg:#202328;--s-think:#f6f7eb;--pen:#f6f7eb}
-:root[data-look="cream"]{--s-bg:#f6f7eb;--s-ink:#202328;--s-acc:#e94f37;--s-mute:rgba(32,35,40,.58);--s-line:rgba(32,35,40,.3);--s-thbg:#202328;--s-think:#f6f7eb}
+--s-bg:#202328;--s-ink:#f6f7eb;--s-acc:#e94f37;--s-mute:rgba(246,247,235,.62);--s-line:rgba(246,247,235,.18);--s-thbg:#2c3037;--s-think:#f6f7eb}
+:root[data-look="ember"]{--s-bg:#202328;--s-ink:#f6f7eb;--s-acc:#f0805e;--s-mute:rgba(246,247,235,.68);--s-line:rgba(246,247,235,.2);--s-thbg:#2c3037;--s-think:#f6f7eb;--pen:#f0805e}
+:root[data-look="cream"]{--s-bg:#202328;--s-ink:#f6f7eb;--s-acc:#f0dfb0;--s-mute:rgba(246,247,235,.68);--s-line:rgba(246,247,235,.2);--s-thbg:#2c3037;--s-think:#f6f7eb;--pen:#f0dfb0}
 :root[data-look="ember"] #laser{background:radial-gradient(circle,#fff 0 12%,#202328 38%,rgba(32,35,40,0) 70%);box-shadow:0 0 18px 8px rgba(32,35,40,.6)}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 html,body{height:100%;margin:0}
@@ -42,8 +42,8 @@ aside{width:210px;border-right:1px solid var(--line);padding:10px;overflow:auto;
 .txt{outline:none;min-height:1.4em;word-break:break-word}
 .txt:empty::before{content:attr(data-ph);color:var(--s-mute)}
 mark{background:var(--s-acc);color:var(--s-bg);border-radius:3px;padding:0 .2em}
-.h1,.h2,.h3{font-family:Isometra,Syne,Montserrat,sans-serif;letter-spacing:.01em}
-.h1{font-size:calc(5cqw*var(--u));font-weight:700;margin-top:.8cqw;color:var(--s-acc)}
+.h1,.h2,.h3{font-family:"Syne",Montserrat,sans-serif;letter-spacing:-.025em}
+.h1{font-size:calc(5cqw*var(--u));font-weight:800;margin-top:.8cqw;color:var(--s-acc)}
 .h2{font-size:calc(3.6cqw*var(--u));font-weight:700;margin-top:.6cqw;color:var(--s-acc)}
 .h3{font-size:calc(2.7cqw*var(--u));font-weight:600}
 .bullet .txt,.todo .txt,.toggle>.txt{padding-left:1.4em}.num .txt{padding-left:1.7em}
